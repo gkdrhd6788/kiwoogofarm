@@ -1,0 +1,40 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">-->
+
+<!--<mapper namespace="com.ssafy.social2.repository.UserMapper">-->
+<!--    <select id="findById" resultType="b303.farm.user.User" parameterType="Long">-->
+<!--        SELECT *-->
+<!--          FROM user-->
+<!--         WHERE id=#{id}-->
+<!--    </select>-->
+
+<!--    <select id="findByEmail" resultType="b303.farm.user.User" parameterType="String">-->
+<!--        SELECT *-->
+<!--          FROM user-->
+<!--         WHERE email=#{email}-->
+<!--    </select>-->
+
+<!--    <select id="findByRefreshToken" resultType="b303.farm.user.User" parameterType="String">-->
+<!--        SELECT *-->
+<!--          FROM user-->
+<!--         WHERE refreshToken = #{refreshToken}-->
+<!--    </select>-->
+
+<!--    <select id="findBySocialTypeAndSocialId" resultType="b303.farm.user.User">-->
+<!--        SELECT *-->
+<!--          FROM user-->
+<!--         WHERE socialType=#{type}-->
+<!--           and socialId=#{socialId}-->
+<!--    </select>-->
+
+<!--    <insert id="save" parameterType="b303.farm.user.User">-->
+<!--        INSERT INTO user (socialId, email, nickname, imageUrl, role, socialType)-->
+<!--        VALUES (#{socialId}, #{email}, #{nickname}, #{imageUrl}, #{role}, #{socialType})-->
+<!--    </insert>-->
+
+<!--    <update id="saveToken" parameterType="b303.farm.user.User" useGeneratedKeys="true" keyProperty="refreshToken">-->
+<!--        UPDATE user-->
+<!--           SET refreshToken = #{refreshToken}-->
+<!--         WHERE email = #{email}-->
+<!--    </update>-->
+<!--</mapper>-->

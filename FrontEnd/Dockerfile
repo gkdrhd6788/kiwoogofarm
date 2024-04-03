@@ -1,5 +1,12 @@
-FROM ubuntu:22.04
+FROM node:20.11.0
 
-RUN apt-get -y update
+WORKDIR /app
 
-RUN apt-get -y install curl
+COPY package.json .
+
+RUN npm install
+
+COPY . .
+
+CMD ["npm", "start"]
+

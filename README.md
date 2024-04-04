@@ -8,12 +8,12 @@
 
 <table> <tr> <td height="140px" align="center"> <a href="https://github.com/dolpongg"> <br><br> 👑 정연우 <br>(Full-Stack) </a> <br></td> <td height="140px" align="center"> <a href="https://github.com/xswaqz">  <br><br> 😆 한지원 <br>(Full-Stack) </a> <br></td> <td height="140px" align="center"> <a href="https://github.com/mickeyshoes"> <br><br> 😶 권수지 <br>(Full-Stack) </a> <br></td> <td height="140px" align="center"> <a href="https://github.com/YongjaeKwon"><br><br> 🙄 윤건웅 <br>(Full-Stack) </a> <br></td> <td height="140px" align="center"> <a href="https://github.com/moxnox63">  <br><br> 😁 박하윤 <br>(Full-Stack) </a> <br></td> <td height="140px" align="center"> <a href="https://github.com/HanKyeon"> <br><br> 🙂 조성주 <br>(Full-Stack) </a> <br></td> </tr> 
 <tr> 
-<td align="center">CI/CD<br>Figma 목업 작성</td>
-<td align="center"></td> 
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
+<td align="center">CI/CD<br>Figma 목업 작성<br>추천 알고리즘 구현<br>농작물 추천페이지 FE 구현</td>
+<td align="center">농작물정보 API 구현<br>검색페이지 API 구현<br>노션관리<br>문서작업<br>UCC기획 및 편집</td> 
+<td align="center">레시피추천 및 상세 FE<br>레시피 즐겨찾기 API 구현<br>화면시연 gif 제작<br>발표자료 제작</td>
+<td align="center">메인페이지FE<br>농작물 검색페이지FE<br>농작물 상세페이지FE<br>헤더 UI<br>레이아웃<br>로그인/회원가입<br>공통 Axios</td>
+<td align="center">레시피 추천 페이지 FE<br>레시피 조회기능 BE<br>레시피 검색,추천기능 BE<br>레시피 데이터크롤링<br>레시피 데이터 MySQL 입력 및 정제</td>
+<td align="center">소셜로그인 구현<br>유저 API 구현<br>텃밭데이터 정제<br>텃밭 조회,검색,찜하기 BE <br>노션 및 GitLab 정리</td>
 </tr> </table>
 
 <br />

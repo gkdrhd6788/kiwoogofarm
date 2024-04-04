@@ -8,23 +8,23 @@
 
 <table> <tr> <td height="140px" align="center"> <a href="https://github.com/dolpongg"> <br><br> 👑 정연우 <br>(Full-Stack) </a> <br></td> <td height="140px" align="center"> <a href="https://github.com/xswaqz">  <br><br> 😆 한지원 <br>(Full-Stack) </a> <br></td> <td height="140px" align="center"> <a href="https://github.com/mickeyshoes"> <br><br> 😶 권수지 <br>(Full-Stack) </a> <br></td> <td height="140px" align="center"> <a href="https://github.com/YongjaeKwon"><br><br> 🙄 윤건웅 <br>(Full-Stack) </a> <br></td> <td height="140px" align="center"> <a href="https://github.com/moxnox63">  <br><br> 😁 박하윤 <br>(Full-Stack) </a> <br></td> <td height="140px" align="center"> <a href="https://github.com/HanKyeon"> <br><br> 🙂 조성주 <br>(Full-Stack) </a> <br></td> </tr> 
 <tr> 
-<td align="center">CI/CD<br>Figma 목업 작성</td>
-<td align="center"></td> 
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
+<td align="center">CI/CD<br>Figma 목업 작성<br>추천 알고리즘 구현<br>농작물 추천페이지 FE 구현</td>
+<td align="center">농작물정보 API 구현<br>검색페이지 API 구현<br>노션관리<br>문서작업<br>UCC기획 및 편집</td> 
+<td align="center">레시피추천 및 상세 FE<br>레시피 즐겨찾기 API 구현<br>화면시연 gif 제작<br>발표자료 제작</td>
+<td align="center">메인페이지FE<br>농작물 검색페이지FE<br>농작물 상세페이지FE<br>헤더 UI<br>레이아웃<br>로그인/회원가입<br>공통 Axios</td>
+<td align="center">레시피 추천 페이지 FE<br>레시피 조회기능 BE<br>레시피 검색,추천기능 BE<br>레시피 데이터크롤링<br>레시피 데이터 MySQL 입력 및 정제</td>
+<td align="center">소셜로그인 구현<br>유저 API 구현<br>텃밭데이터 정제<br>텃밭 조회,검색,찜하기 BE <br>노션 및 GitLab 정리</td>
 </tr> </table>
 
 <br />
 
 ## 📆 프로젝트 기간 
 
-### 24.02.26. ~ 23.04.05
+### 24.02.26. ~ 23.04.04
 
 - 기획 및 설계 : 24.02.26 ~ 23.03.08
-- 프로젝트 구현 : 
-- 버그 수정 및 산출물 정리 :
+- 프로젝트 구현 : 24.03.09 ~ 23.03.29
+- 버그 수정 및 산출물 정리 : 24.03.30 ~ 23.04.04
 
 <br />
 
@@ -34,74 +34,9 @@
 ### 키우고팜
 
 >집이나 텃밭에서 농작물을 키우고 싶어하는 사람들을 위한 개인 맞춤형 농작물 추천 서비스
- <br /><br />소소하게 농작물을 키워보고 싶은 분들을 위한 서비스입니다. 사용자의 취향과 환경에 맞는 농작물을 추천하는 기능과 함께, 특정 농작물로 만들 수 있는 레시피 추천 및 설명 기능도 제공되고 있습니다.
+ <br /><br />소소하게 농작물을 키워보고 싶은 분들을 위한 서비스입니다. 사용자의 취향과 환경에 맞는 농작물을 추천하는 기능과 함께, 특정 농작물로 만들 수 있는 레시피 추천 및 설명 기능도 제공되고 있습니다. 또한 사용자 위치 주변에 분양받을 수 있는 텃밭에 대한 정보도 제공됩니다.
 
 <br/>
-
-### 기능 엿보기
-
-#### 메인페이지
-
-<hr>
-
-![메인페이지](./gif/메인페이지.gif)
-
-#### 농작물
-
-<hr>
-
-##### 농작물 검색
-
-![농작물검색](./gif/농작물검색.gif)
-
-##### 농작물 필터링
-
-![농작물필터링](./gif/농작물필터링.gif)
-
-##### 농작물 추천
-
-![농작물추천2.5](./gif/농작물추천2.5.gif)
-
-##### 농작물 상세
-
-![농작물디테일](./gif/농작물디테일.gif)
-
-<br>
-
-####  레시피
-
-<hr>
-
-##### 레시피 추천
-
-![레시피추천](./gif/레시피추천.gif)
-
-##### 레시피 상세
-
-![레시피_상세](./gif/레시피_상세.gif)
-
-<br>
-
-####  텃밭
-
-<hr>
-
-![텃밭](./gif/텃밭.gif)
-
-<br>
-
-#### 마이페이지
-<hr>
-
-##### 찜한 농작물, 레시피, 텃밭 조회
-
-![마이페이지](./gif/마이페이지.gif)
-
-
-
-
-
-
 
 ## 🛠️ 기술 스택
 
@@ -111,7 +46,7 @@
 
 #### Back
 
-<img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=Java&logoColor=#007396" style="height : auto; margin-left : 10px; margin-right : 10px;"/> <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=for-the-badge&logo=Spring Boot&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/> <img src="https://img.shields.io/badge/JSON Web Tokens-000000?style=for-the-badge&logo=JSON Web Tokens&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/> <br/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/> <img src="https://img.shields.io/badge/OAuth2-2496ED?style=for-the-badge&logo=OAuth2&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/><img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green" style="height : auto; margin-left : 10px; margin-right : 10px;"/> <img src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=Gradle&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/>
+<img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=Java&logoColor=#007396" style="height : auto; margin-left : 10px; margin-right : 10px;"/> <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=for-the-badge&logo=Spring Boot&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/> <img src="https://img.shields.io/badge/JSON Web Tokens-000000?style=for-the-badge&logo=JSON Web Tokens&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/> <br/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/> <img src="https://img.shields.io/badge/OAuth2-2496ED?style=for-the-badge&logo=OAuth2&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/><img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/><img src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=Gradle&logoColor=white" style="height : auto; margin-left : 10px; margin-right : 10px;"/>
 
 #### CI/CD
 
@@ -134,18 +69,19 @@
 | BackEnd  | MySQL              | DBMS                      | 8.0.36           |
 |          | Java               | OpenJDK                   |17         |
 |          | Spring Boot        | Java Server Framework     | 3.2.3            |
-|          | JPA                |                           | \-                |
+|          | JPA                |                           | 3.2.4              |
 |          | IntelliJ           | IDE                       | \-                |
-|          | Django           |                        | \-                |
+|          | Flask           |                        | \-                |
 |          | OAuth2             |                           |\-            |
-|          | Gradle             | Build                     | 7.6.1             |
+|          | Gradle             | Build                     | 8.5            |
 | FrontEnd | Vue.js           | 프론트 프레임워크         | 3.4.21           |
 |          | Tailwind           | CSS 라이브러리            |3.4.1           |
 |          | axios              | API 통신 라이브러리       | 1.6.7             |
 |          | IDE                | Visual Studio Code        | \-          |
 | Server   | AWS EC2            | Server                    | \-                |
 |          | Nginx              |                           |1.24.0       |
-|          | Docker             |                           |\-            |
+|          | Docker             |                           |25.0.4            |
+|          | Jenkins             |                           |2.448            |
 
 </details>
 
@@ -206,18 +142,85 @@ ex) [FE]feat:메인 페이지 로고수정
 
 프로젝트 컨벤션, 문서, 참고자료, 산출물, 데일리 스크럼 등을 설정했습니다.
 
-![데일리스크럼](./exec/assets/notion_daily_scrum.PNG)
 
 <br/>
 
-![노션프로젝트파일](./exec/assets/notion_project_files.PNG)
+## 프로젝트 구조
+
+### 1. 아키텍처
+
+![시스템아키텍처](./exec/B303_시스템_아키텍처.png)
 
 <br/>
+
+### 2. ERD
+
+![시스템아키텍처](./exec/B303_ERD.png)
+
+<br/>
+
+## 실제 서비스 화면
+
+#### 메인페이지
+
+<hr>
+
+![메인페이지](./gif/메인페이지.gif)
+
+#### 농작물
+
+<hr>
+
+##### 농작물 검색
+
+![농작물검색](./gif/농작물검색.gif)
+
+##### 농작물 필터링
+
+![농작물필터링](./gif/농작물필터링.gif)
+
+##### 농작물 추천
+
+![농작물추천2.5](./gif/농작물추천2.5.gif)
+
+##### 농작물 상세
+
+![농작물디테일](./gif/농작물디테일.gif)
+
+<br>
+
+####  레시피
+
+<hr>
+
+##### 레시피 추천
+
+![레시피추천](./gif/레시피추천.gif)
+
+##### 레시피 상세
+
+![레시피_상세](./gif/레시피_상세.gif)
+
+<br>
+
+####  텃밭
+
+<hr>
+
+![텃밭](./gif/텃밭.gif)
+
+<br>
+
+#### 마이페이지
+<hr>
+
+##### 찜한 농작물, 레시피, 텃밭 조회
+
+![마이페이지](./gif/마이페이지.gif)
 
 
 <br />
 
-## 시스템 아키텍처
 
-<br/>
+
 
